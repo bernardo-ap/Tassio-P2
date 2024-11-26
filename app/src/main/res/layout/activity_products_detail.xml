@@ -2,12 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CACAE4"
     android:orientation="vertical">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#9091E7"
+        android:background="#FFFFFF"
         android:padding="8dp"
         android:elevation="4dp"
         android:layout_marginTop="0dp">
