@@ -22,8 +22,8 @@
 
             <ImageView
                 android:id="@+id/logoImageView"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:src="@drawable/amazon_logo"
                 android:contentDescription="Logo"
                 android:clickable="true"

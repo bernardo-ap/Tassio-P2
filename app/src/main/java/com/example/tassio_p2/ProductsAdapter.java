@@ -33,7 +33,7 @@ public class ProductsAdapter extends ArrayAdapter<Product> {
             titleTextView.setText(product.getName());
             descriptionTextView.setText(product.getDescription());
             imageView.setImageResource(product.getImageResId());
-            priceTextView.setText(Float.toString(product.getPrice()));
+            priceTextView.setText(product.getPrice());
 
             convertView.setOnClickListener(v -> {
                 Intent intent = new Intent(getContext(), ProductsDetailActivity.class);

@@ -18,11 +18,11 @@ public class ListActivity extends Activity {
         ImageView logoImageView = findViewById(R.id.logoImageView);
 
         List<Product> productList = new ArrayList<>();
-        productList.add(new Product("Alexa mt braba", 299.0f, "ela é mt braba", R.drawable.alexa, 5));
-        productList.add(new Product("Alexa mt braba2", 299.0f, "ela é mt braba", R.drawable.alexa, 5));
-        productList.add(new Product("Alexa mt braba3", 299.0f, "ela é mt braba", R.drawable.alexa, 5));
-        productList.add(new Product("Alexa mt braba4", 299.1f, "ela é mt braba", R.drawable.alexa, 5));
-        productList.add(new Product("Alexa mt braba5", 299.99f, "ela é mt braba", R.drawable.alexa, 5));
+        productList.add(new Product("Alexa multi mídia", "R$299,99", "Uma alexa que pode ser usada da forma que quiser!", R.drawable.alexa, 5));
+        productList.add(new Product("Playstation 5", "R$3500,00", "Um videogame para se divertir como nunca antes visto!", R.drawable.ps5, 5));
+        productList.add(new Product("Apple Iphone 14Plus", "R$4350,00", "Celular mais seguro e rápido que pode ser oferecido!", R.drawable.iphone, 5));
+        productList.add(new Product("AirFryer", "R$470,99", "Economize seu tempo em casa com essa AirFryer", R.drawable.airfryer, 5));
+        productList.add(new Product("WAP aspirador de pó", "R$1169,99", "Descomplique seus dias de folga e finais de semana com esse robô aspirador!", R.drawable.roboaspirador, 5));
 
 
         ProductsAdapter adapter = new ProductsAdapter(this, productList);

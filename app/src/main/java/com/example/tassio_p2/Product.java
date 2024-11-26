@@ -2,12 +2,12 @@ package com.example.tassio_p2;
 
 public class Product {
     private String name;
-    private float price;
+    private String price;
     private String description;
     private int imageResId;
     private float rating;
 
-    public Product(String name, float price, String description, int imageResId, float rating) {
+    public Product(String name, String price, String description, int imageResId, float rating) {
         this.name = name;
         this.price = price;
         this.description = description;
@@ -27,7 +27,7 @@ public class Product {
         return imageResId;
     }
 
-    public float getPrice() {
+    public String getPrice() {
         return price;
     }
 
